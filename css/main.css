@@ -14,7 +14,7 @@ html {
 body {
   
   margin: 0 250px 0 250px;
-  padding: 0;
+  padding: 10px;
     
 }
 
@@ -31,21 +31,23 @@ body {
   width: auto;
 }
 
-#carousel-Mt-Rainier {
+#carousel-example-generic {
   
 
-  margin: auto;
-  width: 640px;
-  height: 300px;
+  margin-top: 90px;
+  width: auto;
+  height: 360px;
 }
 
-.carousel-inner > .item > img {
+.carousel-inner  {
   
    position: center;
-   width:640px;
+   width:auto;
    height:360px;
    
 }
+
+
 
 .container {
   
@@ -56,13 +58,13 @@ body {
  
 }
 
-.container-content > #description > p {
+.container-content p {
   
   padding: 5px;
   
 }  
 
-.container-content > #history > p {
+#description #history #about {
   
   padding: 5px;
 }

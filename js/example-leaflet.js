@@ -10,6 +10,8 @@
     no additional registration or joining of third-party services.
 */
 
+$(document).ready(function() {
+
 var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 var osmAttrib='Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
 var osm = new L.TileLayer(osmUrl, {minZoom: 8, maxZoom: 18, attribution: osmAttrib});
@@ -37,3 +39,7 @@ satLayer.addTo(map);
 
 var marker = L.marker([46.852, -121.760]).addTo(map);
 marker.bindPopup("<b>Welcome to Mt. Rainier!</b><br>This peak is 4,392 feet high.");
+  
+  
+  
+});
