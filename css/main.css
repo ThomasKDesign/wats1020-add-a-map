@@ -3,102 +3,82 @@
    ========================================================================== */
 
 html {
-  
   background-color: lightblue;
   background-blend-mode: color-dodge;
   margin: 0;
   padding: 0;
-  
 }
 
 body {
-  
   margin: 0 250px 0 250px;
   padding: 10px;
-    
 }
 
 .navbar navbar-inverse {
-   margin: 0;
-   padding: 0;
-  
-}
-.jumbotron {
-  
   margin: 0;
   padding: 0;
-  height: 200px;
+}
+
+.jumbotron {
+  margin: 0;
+  padding: 0;
+  min-height: 200px;
   width: auto;
 }
 
 #carousel-example-generic {
-  
-
   margin-top: 90px;
   width: auto;
   height: 360px;
 }
 
-.carousel-inner  {
-  
-   position: center;
-   width:auto;
-   height:360px;
-   
+.carousel-inner {
+  position: center;
+  width: auto;
+  height: 360px;
 }
 
-
-
 .container {
-  
   height: auto;
   width: 100%;
   margin: 0;
   padding: 0;
   background-color: white;
- 
 }
 
 .container-content p {
-  
   padding: 5px;
-  
-}  
+}
 
 #description #history #about {
-  
   padding: 5px;
 }
 
 .container blockquote {
-  
   postion: absolute;
   margin-top: 100px;
-  text-shadow:-5px 5px 5px darkgray;
+  text-shadow: -5px 5px 5px darkgray;
   text-emphasis: none;
   font-size: 20pt;
   line-height: 100%;
   font-style: italic;
-  
-  
 }
 
-#map-container { height: 250px; }
+#map-container {
+  height: 250px;
+}
 
 #stats h3 {
   font-style: italic;
   text-decoration: underline;
-  
 }
 
 #stats p {
-  
   text-indent: 20pt;
   line-height: 75%;
 }
 
 footer {
-  
   margin: 0;
   padding: 0;
   width: 100%;
@@ -107,27 +87,14 @@ footer {
   border-radius: 5px;
 }
 
-footer > p  {
-  
+footer>p {
   margin: 0;
   padding 0 5px 0 5px;
-  font-size: smaller;  
+  font-size: smaller;
   text-align: center;
 }
 
 footer a {
-  
-  ont-size: smaller;
+  font-size: smaller;
   color: blue;
 }
-
-
-
-
-
-
-
-
-
-
-
