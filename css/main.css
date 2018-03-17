@@ -52,7 +52,7 @@ body {
   background-color: white;
 }
 
-.container-content p {
+.container-content  {
   padding: 5px;
 }
 
@@ -60,9 +60,13 @@ body {
   padding: 5px;
 }
 
+#about > div.tab-content {
+  padding: 10px;
+}
+
 .container blockquote {
   postion: absolute;
-  margin-top: 100px;
+  margin-top:30px;
   text-shadow: -2px 2px 2px darkgray;
   text-emphasis: none;
   font-size: 20pt;
