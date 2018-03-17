@@ -27,7 +27,7 @@ body {
 }
 
 #carousel-example-generic {
-  margin-top: 90px;
+  margin-top: none;
   width: auto;
   height: 360px;
 }
