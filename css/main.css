@@ -63,7 +63,7 @@ body {
 .container blockquote {
   postion: absolute;
   margin-top: 100px;
-  text-shadow: -5px 5px 5px darkgray;
+  text-shadow: -2px 2px 2px darkgray;
   text-emphasis: none;
   font-size: 20pt;
   line-height: 100%;
@@ -81,7 +81,7 @@ body {
 
 #stats p {
   text-indent: 20pt;
-  line-height: 75%;
+  line-height: 50%;
 }
 
 footer {
